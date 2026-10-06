@@ -65,3 +65,14 @@ The existing pnpm dependencies were retained. Execution profile helper returned 
 The build and GitHub recording attempts stalled on local file reads. The build was stopped before deployment, and the GitHub commit/push attempt was stopped without confirmed completion. No new private preview deployment was verified. The new Site registration and local documentation/configuration are saved. Inspect staged changes and Git history before retrying a commit or push. The official website was not published or edited.
 
 Observed stalls included reads of supplied media during asset copying and an existing Git pack index during repository operations. This observation does not establish the cause; investigate local filesystem availability before retrying. Resume with the preserved source rather than registering another Site.
+
+
+## VS Code continuation — October 6, 2026
+
+The current account's Site was verified as owner-private. Its latest version number is still zero; no successful publication has been verified. The new Site must be reused rather than registered again.
+
+GitHub's canonical repository owner is `Devoid-Media-LLC`; the older `em-devoid` URL redirects there. Migration configuration and this release policy were recorded directly on the GitHub `Master-Asset-Library` branch in commit `cf34597fd9cec4fde309b9fbfeba271a259820e7`. The local checkout has not been reconciled with that remote commit. Preserve local edits and staged changes when reconciling; do not blindly reset or discard them.
+
+Local reads continue to stall because repository folders are still downloading from iCloud. Finder showed both the main repository and Master Asset Library folder as Downloading. Supplied assets, fonts, and missing reference source files were recovered from GitHub and verified by their exact Git blob hashes. Known modified files were preserved. Dependency installation completed, but the production build and page tests have not completed. No official-site publication occurred.
+
+Before retrying: finish downloading both GitHub repository folders in Finder and use Keep Downloaded. Reconcile the local checkout with the remote migration record while preserving local work. Obtain a fresh Sites source credential; the earlier credential expired. Then build, run existing tests, publish only the private preview, and verify terminal deployment success. Existing Socials edits and other local changes remain to be reviewed and recorded as appropriate.
