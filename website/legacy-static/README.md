@@ -29,7 +29,7 @@ python3 -m http.server 8000
   (search for `background:` — each placeholder tells you what photo goes there).
 - **Copy:** all text is plain and editable directly in `index.html`.
 
-## 3. Publish to devoidmediallc.com (now that it's off Canva)
+## 3. Publish to devoidmediallc.me (now that it's off Canva)
 
 Two solid free options. **Netlify** is the simplest for a custom domain:
 
@@ -37,9 +37,9 @@ Two solid free options. **Netlify** is the simplest for a custom domain:
 1. Create a free account at netlify.com.
 2. Drag-and-drop the `website/` folder onto the Netlify dashboard (instant deploy), **or** connect
    this GitHub repo and set the publish directory to `website`.
-3. In **Site settings → Domain management → Add a custom domain**, enter `devoidmediallc.com`.
+3. In **Site settings → Domain management → Add a custom domain**, enter `devoidmediallc.me`.
 4. Netlify shows you the DNS records to set. At your **domain registrar** (wherever you bought
-   devoidmediallc.com), either:
+   devoidmediallc.me), either:
    - point the domain's **nameservers** to Netlify (easiest — Netlify manages everything), or
    - add the **A record** and **CNAME** (`www`) Netlify provides.
 5. Netlify auto-issues a free HTTPS certificate. Live in ~5–30 min after DNS propagates.
@@ -48,7 +48,7 @@ Two solid free options. **Netlify** is the simplest for a custom domain:
 1. Push this repo to GitHub (public).
 2. Repo **Settings → Pages** → deploy from branch. (Pages serves from the repo root or `/docs`, so
    you'd move the site's files there, or use a small action to publish the `website/` folder.)
-3. Add a `CNAME` file containing `devoidmediallc.com`, then set the A records at your registrar to
+3. Add a `CNAME` file containing `devoidmediallc.me`, then set the A records at your registrar to
    GitHub's Pages IPs and a `www` CNAME to `<username>.github.io`.
 
 > Since you just disconnected from Canva, DNS may take a few hours to fully clear before the new
