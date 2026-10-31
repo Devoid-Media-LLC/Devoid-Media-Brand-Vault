@@ -25,7 +25,7 @@ A request to develop or update the preview is not approval to publish to the off
 
 The previous preview URL was <https://devoid-media-private-preview.em-devoid.chatgpt.site/>. The current account's preview is registered at <https://devoid-media-studio-preview.emdevoid.chatgpt.site/>; successful publication must be verified before treating it as live.
 
-The official website is <https://devoidmediallc.com>.
+The official website is <https://devoidmediallc.me>.
 
 ## Repository record
 
