@@ -37,7 +37,7 @@ The repository is configured to publish to the owner-only preview site by defaul
 
 Approved releases are promoted separately to the public production site:
 
-<https://devoidmediallc.com>
+<https://devoidmediallc.me>
 
 The production Sites project configuration is preserved in
 `.openai/production-hosting.json`. Do not publish to it until the owner approves
